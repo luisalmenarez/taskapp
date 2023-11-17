@@ -18,6 +18,7 @@ export const FormInput = ({ addTask }) => {
     };
 
     addTask(newTask);
+    setTask("");
   };
 
   return (
@@ -27,6 +28,8 @@ export const FormInput = ({ addTask }) => {
         type="text"
         placeholder="Title your task"
         onChange={handleInputChange}
+        value={task}
+        required
       />
       {/* <textarea
         className="border-none resize-none font-bold p-2 bg-neutral-800 rounded-lg"
