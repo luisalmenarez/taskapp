@@ -34,7 +34,7 @@ export const FormInput = ({ addTask }) => {
           required
         />
         <textarea
-          className="border-none resize-none font-bold p-2 bg-neutral-800 rounded-lg"
+          className="border-none resize-none p-2 bg-neutral-800 rounded-lg"
           placeholder="Task description"
           onChange={(e) => setBodyTask(e.target.value)}
           cols="30"
@@ -43,7 +43,7 @@ export const FormInput = ({ addTask }) => {
         <input
           type="submit"
           value="Add task"
-          className="bg-rose-600 hover:bg-rose-800 transition-all duration-300 p-1 rounded-sm  font-bold cursor-pointer"
+          className="bg-rose-600 hover:bg-rose-800 transition-all duration-300 p-1 rounded-sm font-bold cursor-pointer"
         />
       </form>
     </>

@@ -15,9 +15,9 @@ export const TasksContainer = () => {
   };
 
   return (
-    <div>
+    <section>
       <FormInput addTask={handleAddTask} />
       <TaskList tasks={allTask} changeStatus={handleDeleteTask} />
-    </div>
+    </section>
   );
 };
