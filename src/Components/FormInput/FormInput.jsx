@@ -8,7 +8,6 @@ export const FormInput = ({ addTask }) => {
 
   const handleTasks = (e) => {
     e.preventDefault();
-    console.log("Se envió el formulario");
 
     const newTask = {
       id: uuid(),
